@@ -13,6 +13,7 @@
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+    
 }
 
 .navigation {
@@ -73,23 +74,26 @@
     margin: auto 0 auto 40px;
 }
 
+.home .home-content .Kenobi {
+    font-size: 10px;
+    margin-left: 40px;
+    opacity: 1;
+}
+
+.home .home-content .Kenobi a {
+    color: black;
+    opacity: 0.1;
+}
+
+.home .home-content .Kenobi a:hover {
+    opacity: 1;
+    color: lime;
+    transition: ease-in-out 2s;
+}
+
 .home .home-content .text-1 {
     font-size: 27px;
 
-}
-
-.home .home-content .text-1 span {
-    font-size: 10px;
-    position:relative;
-    top:-15px;
-}
-
-.home .home-content .text-1 span a {
-    color: white;
-}
-
-.home .home-content .text-1 span a:hover {
-    color: lime;
 }
 
 .home .home-content .text-2 {
@@ -106,4 +110,15 @@
 .home .home-content .text-3 span {
     color: lime;
     font-weight: 500;
+}
+
+.about {
+    display: flex;
+    background: url("bg.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
 }
